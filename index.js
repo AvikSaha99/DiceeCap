@@ -1,5 +1,5 @@
 var RandNum1 = Math.floor(Math.random()*6)+1;
-var RandImg1 = "images/" + "dice" + RandNum1 + ".png";
+var RandImg1 = "images/" + "Dice" + RandNum1 + ".png";
 document.querySelectorAll("img")[0].setAttribute("src", RandImg1);
 
 
