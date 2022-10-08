@@ -4,7 +4,7 @@ document.querySelectorAll("img")[0].setAttribute("src", RandImg1);
 
 
 var RandNum2 = Math.floor(Math.random()*6)+1;
-var RandImg2= "images/" + "dice" + RandNum2 + ".png";
+var RandImg2= "images/" + "Dice" + RandNum2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", RandImg2);
 
 if(RandNum1 >RandNum2)
